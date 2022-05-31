@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+    p{
+        text-align: center;
+    }
+    fieldset{
+        display: block;
+        margin-left: 600px;
+        margin-right: 600px;
+        padding-top: auto;
+        padding-bottom: 30px; 
+    }
+    form{
+        text-align: center;
+    }
+    a.button {
+        text-decoration: none;
+    }
+    h1{
+        text-align: left;
+    }
+    </style>
+</head>
+<body>    
+    <fieldset> 
+    <p>Have an account? <a href = "Task_1.html" class="button" target = "_blank">Log in</a><hr /></p>        
+    <h1>Sign up</h1>
+    <form autocomplete="off">            
+        <label for="full name">	
+            <input type="text" name="full name" id="full name" value="Caroline Forsey"
+             placeholder="Enter full name" required="" style="height: 40px; width:300px;">	
+        </label>
+        </br/>
+        <br>
+       Did you mean <a href="cforsey@gmail.com" class="button">cforsey@gmail.com?</a>
+        <label for = "email"> 
+            <input type = "email" value = "cforsey@gmil.com" name = "email" id="email" required=""
+            style="height: 40px; width:300px;" placeholder = "Enter email address" autofocus="">
+        </label>
+        </br>
+        <br>
+        <label for = "email"> 
+            <input type = "email" name = "email" id="email" required=""
+            style="height: 40px; width:300px;" placeholder = "Re-enter email address">
+        </label>
+        </br>
+        <br>
+        <label for="password">
+            <input type="password" name="password" id="password" required="" 
+            style="height: 40px; width:300px;" placeholder="Password" >
+        </label>
+        </br>
+        <br>
+        <label for="password">
+            <input type="password" name="password" id="password" required=""
+             style="height: 40px; width:300px;" placeholder="Re-enter password" >
+        </label>
+        </br>
+        <br>
+        <label>    
+            <input type="checkbox" name="Receive our weekly newsletter and other occasional updates"
+            id="Receive our weekly newsletter and other occasional updates"
+            value="Receive our weekly newsletter and other occasional updates">  
+            Receive our weekly newsletter and other <br/> occasional updates          
+        </label>
+        </br>
+        <br>
+        <label for="submit">           
+            <input type="submit" name="Create account" id="Create account" value="Create account"
+             style="background-color:lightsalmon;color:white;height: 40px; width:300px;">   
+        </label>
+    </br>
+    </form>
+</fieldset>
+</body>
+</html>
